@@ -1,0 +1,1160 @@
+/* responsive css  header with nav  */
+/*   <!-- navbar_background navbar_wrapper navbar_content_parent  navbar_left  navbar_left img navbar_left p navbar_right menu_parent menu_parent p  menu_btn menu_btn button--> */
+@media screen and (max-width: 600px) {
+/*  */
+.navbar_left img{
+    width: 180px;
+    height: 56px;
+
+}
+    .navbar_content_parent{
+     flex-direction: column;
+        
+        /* flex-wrap: wrap; */
+    
+    }
+    /* 
+     */
+     .menu_parent{
+        flex-direction: column;
+       
+        /* flex-wrap: wrap; */
+        gap: 5px;
+    
+    }
+    .navbar_right{
+        flex-direction: column;
+       
+    }
+
+    .menu_parent a{
+        
+        padding: 8px 16px;
+        text-transform: capitalize;
+       
+      
+        
+        font-size: 12px;
+        line-height: 20px;
+        font-weight: 400;
+        
+    
+    
+    }
+
+    .menu_btn button{
+        padding: 8px 16px;
+    
+    
+    }
+
+}
+
+/*  */
+@media screen and (max-width: 768px){
+    .navbar_content_parent{
+    flex-direction: column;
+        
+    /* flex-wrap: wrap; */
+    }
+    /*  */
+    .menu_parent{
+        flex-direction: column;
+       
+        /* flex-wrap: wrap; */
+        gap: 1px;
+    
+    }
+}
+
+/* responsive csshero_section with   */
+
+/* <!-- hero_section_background  hero_wrapper hero_content_parent hero_left_side_parent hero_left_side_parent h1 hero_left_side_parent p hero_left_side_parent button  skill_div_parent skill_single  single_one h2 single_one p single_two h2 single_two p  single_three h2 single_three p--> */
+
+@media screen and (max-width: 600px) {
+
+    /*  */
+
+    .hero_left_side_parent .hero_title{
+       
+        font-size: 40px;
+     
+        line-height: 40px ;
+        font-weight: 400;
+        
+    }
+
+    .hero_content_parent{
+       
+        flex-direction: column;
+       
+        flex-wrap: wrap;
+        
+    }
+    /*  */
+    .hero_left_side_parent .hero_para{
+        margin: 15px 0;
+        font-size: 14px;
+        
+    }
+    .hero_left_side_parent button {
+        
+        padding: 8px 16px;
+        font-size: 12px;
+        
+        line-height: 20px;
+        font-weight: 400;
+      
+     
+        
+
+
+    }
+
+    /*  */
+
+    .skill_single{
+        padding: 18px 0;
+          width: 200px;
+          /* height: 72px; */
+          /* text-align: center; */
+          background-color:#6e2f7c67;
+          /* padding: 30px 0px; */
+      
+      }
+    /*  */
+    .skill_single h2{
+        font-size: 12px;
+    
+    }
+    .skill_single p{
+        font-size: 8px;
+    
+    }
+    /* hero rigt side */
+    .hero_right_side_parent img{
+        width: 300px;
+        height: 350px;
+      
+    
+    }
+
+
+}
+
+@media screen and (max-width: 768px){
+
+    .hero_right_side_parent img{
+        width: 350px;
+        height: 400px;
+        /* width: 450px;
+        height: 500px; */
+      
+    
+    }
+
+
+
+
+}
+/* responsive css about_section with   */
+/*       <!-- about_section_backgroud  about_wrapper about_content_parent  about_left  about_left .about_img  about_social_link about_social_link img  about_right_parent about_right_parent h1 about_right_parent p about_btn about_btn button about_btn a about_btn a  img  about_btn img --> */
+@media screen and (max-width: 600px) {
+/*  */
+    .about_content_parent {
+
+        flex-direction: column;
+        justify-content: center;
+         flex-wrap: wrap;
+             
+         }
+         /*  */
+         .about_right_parent h1  {
+            margin-top: 40px ;
+
+            font-size: 16px;
+   
+        }
+         
+         .about_right_parent p{
+         
+      
+         font-size: 12px;
+             
+         }
+         /*  */
+         .about_btn  {
+      
+            gap: 14px;
+           
+               
+           }
+/*  */
+           .about_btn button{
+            padding: 2px 16px;
+            font-size: 12px;
+            
+           
+        
+        }
+         .about_btn a {
+            padding: 4px 20px;
+            
+            font-size: 10px;
+           
+        
+            
+        }
+        /*  */
+
+}
+@media screen and (max-width: 768px){
+    /*  */
+
+    .about_content_parent {
+
+        flex-direction: column;
+        justify-content: center;
+         flex-wrap: wrap;
+             
+         }
+
+        /*  */
+        .about_right_parent h1  {
+            margin-top: 40px ;
+
+            font-size: 20px;
+   
+        }
+        .about_right_parent p  {
+           
+
+            font-size: 14px;
+   
+        }
+        /*  */
+        /*  */
+        .about_btn button{
+            padding: 4px 16px;
+            font-size: 14px;
+            
+           
+        
+        }
+         .about_btn a {
+            padding: 8px 20px;
+         
+            font-size: 12px;
+           
+        
+            
+        }
+        /*  */
+
+
+
+}
+
+/* ==============================================work_process=========================================================== */
+/*   <!--  work_process_background work_wrapper work_content_parent work_left work_left h2 work_left p    
+         work_right_parent work_inner_box_left work_inner_box_contnet work_inner_box_right process_box_one 
+       
+       --> */
+
+       @media screen and (max-width: 600px) {
+
+        .work_content_parent{
+          
+            flex-wrap: wrap;
+           
+            
+          } 
+
+          .work_right_parent{
+            /* margin-top: 60px; */
+       /* justify-content: center; */
+            /* flex-wrap: wrap; */
+            gap: 10px;
+            width:  92%;
+            margin: 0 auto;
+    
+          }
+          /*  */
+          .process_box_one{
+            padding: 40px 15px;
+            background-color: rgb(167, 14, 14);
+            border-radius: 8px;
+          }
+
+       }
+
+       /*  */
+       @media screen and (max-width: 768px){
+
+        /*  */
+        .work_wrapper{
+           
+            padding: 50px  0;
+            
+          } 
+
+        /*  */
+        .work_left{
+            width: 45%;
+            margin: 20px auto;
+            
+          } 
+        .work_right_parent{
+        
+            /* margin-top: 60px; */
+            /* justify-content: center; */
+                 /* flex-wrap: wrap; */
+                  gap: 12px;
+                 /* width:  60%;  */
+
+                 margin: 60px auto;
+         
+               }
+
+             
+           
+              .process_box_one{
+                padding: 20px 15px;
+                background-color: white;
+                border-radius: 8px;
+              }
+
+              .process_box_one h3{
+              font-size: 14px;
+        
+        
+                
+              }
+          .process_box_one p{
+           font-size: 12px;
+          }
+
+
+
+       }
+
+       
+/* =======================================portfolio=================================================================== */
+/* ==========================================portfolio==================================================================== */
+ /* portfolio_section_background  portfolio_section_top portfolio_top_content portfolio_wraffer  portfolio_single_content img portfolio_single_content h3 portfolio_single_content h2 portfolio_single_content p portfolio_single_content button  portfolio_box1 portfolio_box2 portfolio_box3 portfolio_box4 portfolio_box5 portfolio_box6 portfolio_single_inner_div portfolio_btn_project_link--> */ 
+
+ /*  */
+
+ @media screen and (max-width: 497px) {
+    .portfolio_single_content a{
+        font-size:2px;
+        /* font-weight: 100; */
+        line-height: 0px;
+        /* padding:2px 2px ; */
+        /* border-radius: 1px; */
+       
+       /* display: none; */
+       
+      
+      
+       }
+
+       /*  */
+       .portfolio_single_content a img{
+        width: 2px;
+        margin-left: 1px;
+        
+         }
+
+ }
+
+ @media screen and (max-width: 520px) {
+
+    .portfolio_single_content a{
+        font-size: 6px;
+        font-weight: 100;
+        line-height: 10px;
+        padding:2px 4px ;
+        border-radius: 1px;
+       
+       
+       
+      
+      
+       }
+
+       /*  */
+       .portfolio_single_content a img{
+        width: 6px;
+        margin-left: 2px;
+        
+         }
+
+ }
+
+
+
+ @media screen and (max-width: 600px) {
+
+    /*  */
+    .portfolio_section_top p{
+        margin: 12px 0;
+        font-size: 10px;
+        font-weight: 400;
+        line-height: 18px;
+        }
+
+    /*  */
+
+    .portfolio_single_content h3{
+        font-size: 8px;
+        font-weight: 500;
+        line-height: 12px;
+      
+       }
+       .portfolio_single_content h2{
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 20px;
+      
+       }
+       .portfolio_single_content p{
+        font-size: 10px;
+        font-weight: 400;
+        line-height: 16px;
+        margin: 10px 0;
+      
+       }
+    /*  */
+
+.portfolio_btn{
+    font-size: 4px;
+}
+    .portfolio_single_content a{
+        font-size: 4px;
+        font-weight: 400;
+        line-height: 16px;
+        padding:2px 4px ;
+        border-radius: 4px;
+       
+       
+       
+      
+      
+       }
+       /*  */
+       .portfolio_single_content a img{
+        width: 6px;
+        margin-left: 10px;
+        
+         }
+
+    .portfolio_btn_project_link a{
+
+        padding:8px 12px ;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 20px;
+        text-transform: capitalize;
+      
+        
+         }
+
+
+
+
+ }
+
+ /*  */
+
+ @media screen and (max-width: 715px) {
+
+    /*  */
+    .portfolio_single_content a{
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 20px;
+        padding:8px 12px ;
+        border-radius: 4px;
+        background-color: transparent;
+        border: 1px solid #a53dff;
+       text-decoration: none;
+       text-transform: capitalize;
+      
+       }
+
+    .portfolio_btn_project_link a{
+
+        padding:8px 12px ;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 20px;
+        text-transform: capitalize;
+      
+        
+         }
+
+
+
+    
+ }
+
+ @media screen and (max-width: 768px){
+    /*  */
+
+    .portfolio_section_top p{
+        margin: 15px 0;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 20px;
+        }
+    /*  */
+
+    .portfolio_btn_project_link a{
+
+        padding:8px 12px ;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 20px;
+        text-transform: capitalize;
+      
+        
+         }
+
+             /*  */
+
+    .portfolio_single_content h3{
+        font-size: 10px;
+        font-weight: 500;
+        line-height: 16px;
+      
+       }
+       .portfolio_single_content h2{
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 22px;
+      
+       }
+       .portfolio_single_content p{
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 18px;
+        margin: 10px 0;
+      
+       }
+    /*  */
+
+ }
+
+  /* ============================================porject idea section=================================================== */
+ /* ============================================porject idea section=================================================== */
+ /*    <!-- project_idea_backgroud  project_idea_wraffer project_idea_content h1 project_idea_content p project_idea_content a-->*/
+
+ /*  */
+
+ @media screen and (max-width: 600px) {
+
+    .project_idea_content {
+        width: 48%;
+        text-align: center;
+        margin: 0 auto;
+      
+      
+        
+       }
+       .project_idea_content h1 {
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 36px;
+        text-transform: capitalize;
+        color: white;
+      
+        
+       }
+
+        /*  */
+        .project_idea_content p {
+
+            font-size: 12px;
+            font-weight: 400;
+            line-height: 20px;
+            text-transform: capitalize;
+            color: #a5ac85;
+            margin: 15px 0;
+            
+           }
+           .project_idea_content a {
+            /* margin-top:50px ; */
+          text-decoration: none;
+            font-size: 12px;
+            font-weight: 500;
+            line-height: 20px;
+            text-transform: capitalize;
+            color: #ffffff;
+            padding: 6px 14px;
+            background-color: #a53dff;
+          
+            
+           }
+            /*  */
+       .project_idea_content a img{
+        width: 6px;
+        margin-left: 10px;
+        color: #ffffff;
+        
+         }
+
+
+ }
+
+ /*  */
+
+ @media screen and (max-width: 768px){
+    .project_idea_content {
+        width: 48%;
+        text-align: center;
+        margin: 0 auto;
+      
+      
+        
+       }
+       .project_idea_content h1 {
+        font-size: 32px;
+        font-weight: 500;
+        line-height: 48px;
+        text-transform: capitalize;
+        color: white;
+      
+        
+       }
+
+       /*  */
+       .project_idea_content p {
+
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 22px;
+        text-transform: capitalize;
+        color: #a5ac85;
+        margin: 20px 0;
+        
+       }
+       .project_idea_content a {
+        /* margin-top:50px ; */
+      text-decoration: none;
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 20px;
+        text-transform: capitalize;
+        color: #ffffff;
+        padding: 8px 16px;
+        background-color: #a53dff;
+      
+        
+       }
+       /*  */
+       .project_idea_content a img{
+        width: 8px;
+        margin-left: 12px;
+        color: #ffffff;
+        
+         }
+
+ }
+
+    /* ==================================== blog section ====================================================== */
+/* ==================================== blog section ====================================================== */
+
+   /*   <!-- blog_section_background blog_wraffer blog_top_section_content blog_top_section_content h2 blog_top_section_content p blog_section_content_parent blog_section_single blog_section_single  img blog_single_inner blog_single_inner h3 blog_single_inner p-->
+   
+   */
+
+   
+  @media screen and (max-width: 600px) {
+/*  */
+.blog_top_section_content h2{
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 42px;
+  
+   
+  }
+  .blog_top_section_content p{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 30px;
+
+    margin: 16px 0 30px 0;
+  } 
+   
+  /*  */
+  .blog_section_content_parent{
+    /* width: 400%; */
+       flex-direction: column;
+       justify-content: center;
+       margin: 0 auto;
+        
+      
+  }
+  .blog_section_single{
+    width: 100%;
+    margin: 0 auto;
+  
+  
+  }
+
+/*  */
+
+.blog_single_inner h3{
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 16px;
+  
+    
+   
+  }
+  .blog_single_inner p{
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 16px;
+  
+    
+    
+  }
+  }
+  /*  */
+  
+@media screen and (max-width: 768px){
+
+/*  */
+.blog_top_section_content h2{
+    font-size: 42px;
+    font-weight: 600;
+    line-height: 36px;
+  
+   
+  }
+  .blog_top_section_content p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 32px;
+
+    margin: 16px 0 30px 0;
+  } 
+      
+      /*  */
+    .blog_section_content_parent{
+       
+        
+      
+      }
+
+      /*  */
+      .blog_section_single{
+        width: 20.5%;
+        margin: 0 auto;
+      
+      }
+      /*  */
+      .blog_single_inner h3{
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 18px;
+      
+        
+       
+      }
+      .blog_single_inner p{
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 20px;
+      
+        
+        
+      }
+
+
+}
+
+/* ============================================what i do section========================================================*/
+/* ============================================what i do section========================================================*/
+/* 
+!--  what_i_section_brackground what_i_wraffer what_i_content_parent what_i_left_parent what_i_left_parent h2 what_i_left_parent p   what_i_right_parent what_i_right_single what_i_right_single h3 what_i_right_single p --> */
+
+
+/*  */
+
+@media screen and (max-width: 550px) {
+    .what_i_left_parent h2 {
+
+        font-size: 36px;
+        font-weight: 600;
+        line-height: 50px;
+       
+        
+      }
+      .what_i_left_parent p{
+      
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 24px;
+     
+        margin: 15px 0;
+        
+      }
+      /*  */
+      .what_i_left_parent button{
+
+        font-size: 1opx;
+        font-weight: 400;
+        line-height: 20px;
+       
+        padding: 8px 16px;
+     
+        
+      }
+
+      /*  */
+      .what_i_right_single h3{
+        margin-bottom: 10px;
+        font-size: 16px;
+          font-weight: 400;
+          line-height: 30px;
+         
+          
+        }
+        .what_i_right_single p{
+        
+          font-size: 14px;
+            font-weight: 400;
+            line-height: 20px;
+            text-transform: capitalize;
+            color: #424e60;
+        
+          
+        }
+
+
+
+
+
+}
+@media screen and (max-width: 600px) {
+
+
+
+}
+
+/*  */
+
+@media screen and (max-width: 768px){
+
+    .what_i_left_parent button{
+
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 24px;
+       
+        padding: 10px 20px;
+     
+        
+      }
+
+}
+/*  */
+/* =====================================happy clients================================================= */
+/* =====================================happy clients================================================= */
+
+/* 
+    <!-- happy_client_background  happy_client_wraffer  happy_client_top_content happy_client_top_content happy_client_top_content h2 happy_client_top_content p  happy_client_content_parent happy_client_single happy_client_single img happy_box1 -->
+
+    
+*/
+/*  */
+
+@media screen and (max-width: 600px){
+
+/*  */
+.happy_client_single img{
+    width: 100%;
+    color: #b8bcc2;
+  
+  
+    
+  } 
+
+}
+
+@media screen and (max-width: 768px){
+
+    .happy_client_top_content h2 {
+
+        font-size: 40px;
+        font-weight: 500;
+        line-height: 50px;
+        
+        
+      }
+      .happy_client_top_content p{
+      margin: 24px 0;
+      font-size: 14px;
+          font-weight: 400;
+          line-height: 20px;
+          
+      
+      
+        
+      }
+
+}
+
+
+
+/* ============================= testimonials section css =============================================== */
+/* ============================= testimonials section css =============================================== */
+/* 
+<!-- testimonial_secction_background testimonial_wraffer testimonial_content_parent testimonial_top testimonial_top h2 testimonial_top p  testimonial_body_content p  testimonail_body_footer h4 testimonail_body_footer p
+ -->
+*/
+
+/*  */
+@media screen and (max-width: 600px){}
+@media screen and (max-width: 768px){
+
+    .testimonial_top h2 {
+        font-size: 40px;
+          font-weight: 500;
+          line-height: 50px;
+         
+      
+      }
+      /*  */
+      .testimonial_top p {
+        font-size: 14px;
+          font-weight: 400;
+          line-height: 20px;
+        
+      }
+
+      /*  */
+      .testimonial_body_content p {
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 20px;
+      
+      
+      }
+      .testimonail_body_footer  {
+        margin: 20px 0;
+      
+      }
+      .testimonail_body_footer h4 {
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 20px;
+        
+        
+      
+      }
+      .testimonail_body_footer p {
+        font-size: 12px;
+        font-weight: 300;
+        line-height: 20px;
+     
+        margin: 8px 0;
+      
+      }
+}
+
+
+
+
+
+/* ================================== discuss section css ================================================ */
+/* ================================== discuss section css ================================================ */
+/* 
+/* 
+  <!-- discuss_section_background discuss_wraffer discuss_full_body discuss_content_parent discuss_left_content discuss_top_heading discuss_top_heading h2 discuss_top_heading p discuss_box_main discuss_left_single discuss_map discuss_left_single h4 discuss_left_single p  discuss_social_box discuss_social_box img 
+                             discuss_right_content discuss_right_content p-->
+*/
+
+.discuss_content_parent{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* flex-wrap: wrap;  responsive */
+    
+    }
+
+    /*  */
+    @media screen and (max-width: 700px) {
+
+        .discuss_top_heading h2 {
+            font-size: 14px;
+            font-weight: 600;
+            line-height: 32px;
+           
+          
+            
+          }
+          .discuss_top_heading p{
+            
+            font-size: 10px;
+            font-weight: 400;
+            line-height: 20px;
+            
+            margin: 14px 0;
+            
+          }
+          /*  */
+
+    }
+
+    /*  */
+    @media screen and (max-width: 768px){
+
+        /*  */
+        .discuss_top_heading h2 {
+            font-size: 30px;
+            font-weight: 600;
+            line-height: 46px;
+          
+            
+          }
+          .discuss_top_heading p{
+            
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 24px;
+            
+            margin: 16px 0;
+            
+          }
+          /*  */
+        .discuss_content_parent{
+
+           flex-direction: column;
+            /* flex-wrap: wrap;  responsive */
+            
+            }
+
+            /*  */
+            .discuss_right_content{
+
+                margin-left: 0px;
+
+                margin-top: 50px;
+              }
+
+              /*  */
+              .discuss_form_div form button{
+
+                margin: 12px 0 0 0;
+                padding: 8px 16px ;
+             
+                font-size: 12px;
+                font-weight: 600;
+                line-height: 20px;
+               
+              } 
+              /*  */
+              input::placeholder {
+           
+                font-size: 12px;
+                font-weight: 400;
+                line-height: 20px;
+              }
+
+
+
+    }
+
+    /*  */
+
+      /* ============================ footer css ============================================================ */
+  /* ============================ footer css ============================================================ */
+  
+  /* 
+   <!--  footer_section_background footer_wraffer footer_content_parent footer_logo footer_logo img 
+          footer_menu footer_menu a copy_right
+        -->
+  */
+  .footer_content_parent {
+    display: flex; 
+     justify-content: space-between;
+     flex-wrap: wrap;
+     align-items: center;
+     }
+/*  */
+
+@media screen and (max-width: 400px) {
+
+    .footer_menu{
+
+       flex-direction: column;
+        gap: 20px;
+       }
+
+}
+     @media screen and (max-width: 600px) {
+
+
+
+     }
+
+     /*  */
+
+     @media screen and (max-width: 768px){
+
+/*  */
+.footer_logo img{
+
+ width: 150px;
+
+}
+
+/*  */
+        .footer_content_parent {
+        
+          flex-direction: column;
+         flex-wrap: wrap;
+           
+             }
+
+             /*  */
+
+             .footer_menu{
+
+                margin: 20px 0;
+             }
+             .footer_menu a{
+                text-decoration: none;
+                font-size: 12px;
+                font-weight: 400;
+                line-height: 20px;
+               
+          
+           }
+
+           .copy_right p{
+
+            font-size: 12px;
+            font-weight: 400;
+            line-height: 20px;
+          
+           }    
+
+     }
+   
+
+
+
+
+
+
+
+
+
+
+
